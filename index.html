@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Swole Sisters Women's Fitness Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+      <img src="logo.png" class="logoimage">
+      </div>
+      <nav>
+        <ul class="topnav">
+          <li><a href="#workout">Events</a></li>
+          <li><a href="#us">About</a></li>
+          <li><a href="#join">Join</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="mission" style="position:relative;">
+  <img src="back_gym.jpg" class="back" style="width:100%;">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); text-align:center;">
+    <div class="text">
+    <h2>Swole Sisters</h2>
+    <h3>Women's Fitness Club</h3>
+    <h4>Open to all ages & fitness levels!</h4>
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br>
+      <div class="events">
+      <h2 id="workout" class="event">Events</h2>
+      <div class="events-grid">
+        <img src="weight.jpg" class="Lifting">
+        <button class="btn w">Lifting Workouts</button><br>
+        <img src="cardio.jpg" class="Cardio">
+        <button class="btn c">Cardio Workouts</button><br>
+        <img src="yoga.jpg" class="Yoga">
+        <button class="btn y">Yoga/Pilates Workouts</button>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="about">
+      <h2 id="us" class="bio">About Us</h2>
+      <img src="founders.jpg" class="founder"><br><br>
+       <p>Swole Sisters is a New York based women's fitness club founded by 2 sisters, Ariana and Sam.</p> 
+       <p>Ariana and Sam began their fitness journey in 2016. They both fell in love with weightlifting, but they soon realized that a lot of women didn't feel comfortable working out in crowded gym settings.</p>
+      <p>In an effort to encourage other women to feel confident in the gym, Ariana and Sam created Swole Sisters - a fitness club that is open to women of all ages and fitness levels. The club hosts 3 workouts per week, which can include weightlifting, cardio circuits, Pilates, and Yoga. Swole Sisters is partnered with several gyms across New York, and plans to expand even further!  </p>
+      </div>
+      <br><br><br>
+    <div class="member">
+      <h2 id="join" class="joinus">Join</h2>
+  <form class="form">
+  <label for="name" class="name">Name:</label>
+  <input type="text" id="name" name="name" required><br><br>
+  <label for="age" class="age">Age:</label>
+  <input type="number" id="age" name="age" required><br><br>
+  <label for="fitness-level" class="fitness">Fitness Level:</label>
+  <select id="fitness-level" name="fitness-level" required>
+    <option value="">Select your fitness level</option>
+    <option value="beginner">Beginner</option>
+    <option value="intermediate">Intermediate</option>
+    <option value="advanced">Advanced</option>
+  </select><br><br>
+  <label for="email" class="contact">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+  <input type="submit" value="Submit" class="submit1">
+</form>
+      </div>
+    </main>
+    <br><br><br><br><br><br>
+    <footer>
+      <nav>
+        <ul class="bottomnav">
+          <li><img src="fb.png"></li>
+          <li><img src="email.png"></li>
+          <li><img src="insta.png"></li>
+        </ul>
+      </nav>
+      <br>
+      <p class="footer">Page created by Olivia for Codeacademy. Copyright Swole Sisters 2023.</p>
+    </footer>
+  </body>
+</html>
